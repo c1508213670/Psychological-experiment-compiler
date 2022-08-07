@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> experiment cueing </title>
+    <script src="jspsych-6.3.0/jspsych.js"></script>
+    <script src="jspsych-6.3.0/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="jspsych-6.3.0/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych-6.3.0/plugins/jspsych-html-slider-response.js"></script>
+    <script src="jspsych-6.3.0/plugins/jspsych-audio-keyboard-response.js"></script>
+    <script src="jspsych-6.3.0/plugins/jspsych-video-keyboard-response.js"></script>
+    <script src="jspsych-6.3.0/plugins/jspsych-image-keyboard-response.js"></script>
+    <script src="jspsych-6.3.0/plugins/jspsych-preload.js"></script>
+    <link href="jspsych-6.3.0/css/jspsych.css" rel="stylesheet" type="text/css">
+  </head>
+  <body></body>
+  <script>
+    var timeline = [];
+
+
+
+    var Text_6=
+          {
+      type: "html-keyboard-response",
+      stimulus: 
+      <div style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: 'center';align-items: 'center';">
+      <p>
+<font style="font-size:12;font-style:namal;font-family:'ËÎÌו';color:rgb(0,0,0); ">
+'Your text will appear here'
+</font>
+</p>
+      </div>,
+      post_trial_gap: 1000
+          };
+      timeline.push(Text_6);
+ 
+    var Text_7=
+          {
+      type: "html-keyboard-response",
+      stimulus: 
+      <div style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: 'center';align-items: 'center';">
+      <p style="background:rgb(255,255,255)"><font style="font-size:12;font-style:namal;font-family:'ËÎÌו';color:rgb(0,0,0); ">'Your text will appear here'</font></p>
+      </div>,
+      post_trial_gap: 1000
+          };
+      timeline.push(Text_7);
+ 
+ 
+    var Text_8=
+          {
+      type: "html-keyboard-response",
+      stimulus: 
+      <div style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: 'center';align-items: 'center';">
+      <p style="background:rgb(255,255,255)"><font style="font-size:12;font-style:namal;font-family:'ËÎÌו';color:rgb(0,0,0); ">'Your text will appear here'</font></p>
+      </div>,
+      post_trial_gap: 1000
+          };
+      timeline.push(Text_8);
+ 
+ 
+ 
+    jsPsych.init(
+    {
+        timeline: timeline
+     });
+  </script>
+</html>

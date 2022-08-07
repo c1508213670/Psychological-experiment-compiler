@@ -1,0 +1,1 @@
+from .rectProperty import RectProperty

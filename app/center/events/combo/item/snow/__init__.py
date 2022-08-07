@@ -1,0 +1,1 @@
+from .snowProperties import SnowProperty

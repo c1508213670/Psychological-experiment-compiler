@@ -1,0 +1,239 @@
+numpy==1.18.2
+PyOpenGL==3.1.5
+PyQt5-sip==12.7.2
+PyQt5-stubs==5.14.2.0
+qimage2ndarray==1.8.3
+
+sudo apt install python3-pip
+pip install --upgrade pip
+pip3 install pyinstaller pycrypto numpy PyQt5 qimage2ndarray cython==3.0a6 tinyaes Pillow
+
+
+pip3 install pyinstaller==4.3 pandas==1.1.5 pycrypto==2.6.1 cython==3.0a7 numpy==1.20.3 PyQt5==5.15.2 qimage2ndarray==1.8.3
+
+
+for mac ox:
+
+altgraph                  0.17
+autopep8                  1.5.6
+beepy                     1.0.7
+certifi                   2020.12.5
+Cython                    3.0a6
+docopt                    0.6.2
+gitignore                 0.0.8
+macholib                  1.14
+Nuitka                    0.6.13.3
+numpy                     1.19.4
+pip                       21.0.1
+pycodestyle               2.7.0
+pycrypto                  2.6.1
+pyinstaller               4.1
+pyinstaller-hooks-contrib 2021.1
+PyOpenGL                  3.1.5
+PyQt5                     5.15.2
+PyQt5-Qt5                 5.15.2
+PyQt5-sip                 12.8.1
+PyQt5-stubs               5.15.2.0
+qimage2ndarray            1.8.3
+setuptools                56.0.0
+simpleaudio               1.0.4
+tinyaes                   1.0.1
+toml                      0.10.2
+wheel                     0.36.2
+
+
+for linux:
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+
+sudo apt install python3.8
+# sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+sudo apt remove --autoremove python3.6 python3.6-minimal
+sudo apt-get install python3-distutils
+sudo apt-get install python3-apt
+
+altgraph                  0.17
+apturl                    0.5.2
+bcrypt                    3.2.0
+blinker                   1.4
+Brlapi                    0.7.0
+certifi                   2020.12.5
+cffi                      1.14.4
+chardet                   4.0.0
+click                     7.1.2
+colorama                  0.4.3
+command-not-found         0.3
+cryptography              2.8
+cupshelpers               1.0
+Cython                    3.0a6
+dbus-python               1.2.16
+defer                     1.0.6
+distro                    1.5.0
+distro-info               0.23ubuntu1
+duplicity                 0.8.12.0
+entrypoints               0.3
+fasteners                 0.16
+future                    0.18.2
+httplib2                  0.18.1
+idna                      2.10
+jeepney                   0.6.0
+keyring                   21.5.0
+language-selector         0.1
+launchpadlib              1.10.13
+lazr.restfulclient        0.14.3
+lazr.uri                  1.0.5
+lockfile                  0.12.2
+louis                     3.12.0
+macaroonbakery            1.3.1
+Mako                      1.1.3
+Markdown                  3.3.3
+MarkupSafe                1.1.1
+meson                     0.56.0
+monotonic                 1.5
+netifaces                 0.10.9
+numpy                     1.19.4
+oauthlib                  3.1.0
+olefile                   0.46
+packaging                 20.8
+paramiko                  2.7.2
+pbr                       5.5.1
+pexpect                   4.8.0
+Pillow                    8.0.1
+pip                       20.3.3
+protobuf                  3.14.0
+ptyprocess                0.6.0
+pycairo                   1.20.0
+pycparser                 2.20
+pycrypto                  2.6.1
+pycups                    1.9.73
+Pygments                  2.7.3
+PyGObject                 3.38.0
+pyinstaller               4.1
+pyinstaller-hooks-contrib 2020.10
+PyJWT                     1.7.1
+pymacaroons               0.13.0
+PyNaCl                    1.4.0
+PyOpenGL                  3.1.5
+pyparsing                 2.4.7
+pyperclip                 1.8.1
+PyQt5                     5.15.2
+PyQt5-sip                 12.8.1
+PyQt5-stubs               5.14.2.2
+pyRFC3339                 1.1
+python-apt                2.0.0+ubuntu0.20.4.4
+python-dateutil           2.8.1
+python-debian             0.1.38
+pytz                      2020.4
+pyxdg                     0.27
+PyYAML                    5.3.1
+qimage2ndarray            1.8.3
+reportlab                 3.5.56
+requests                  2.25.1
+requests-unixsocket       0.2.0
+screen-resolution-extra   0.0.0
+SecretStorage             3.3.0
+setuptools                51.0.0
+simplejson                3.17.2
+sip                       5.5.0
+six                       1.15.0
+style                     1.1.6
+systemd-python            234
+testresources             2.0.1
+tinyaes                   1.0.1
+toml                      0.10.2
+ubuntu-advantage-tools    20.3
+ubuntu-drivers-common     0.0.0
+ufw                       0.36
+unattended-upgrades       0.1
+update                    0.0.1
+urllib3                   1.26.2
+usb-creator               0.3.7
+wadllib                   1.3.4
+wheel                     0.36.2
+xkit                      0.0.0
+
+window till 20210901
+
+Package                   Version
+------------------------- ---------
+altgraph                  0.17
+autopep8                  1.5.7
+backcall                  0.2.0
+click                     7.1.2
+colorama                  0.4.4
+configparser              5.0.1
+Cython                    3.0.0a9
+decorator                 4.4.2
+docopt                    0.6.2
+Flask                     1.1.2
+future                    0.18.2
+gconf                     0.7.1
+gitignore                 0.0.8
+ipykernel                 5.5.3
+ipython                   7.22.0
+ipython-genutils          0.2.0
+itsdangerous              1.1.0
+jedi                      0.18.0
+Jinja2                    2.11.2
+jupyter-client            6.1.12
+jupyter-core              4.7.1
+MarkupSafe                1.1.1
+MouseInfo                 0.1.3
+MyApplication             0.1.0
+numpy                     1.21.2
+opencv-python             4.4.0.46
+packaging                 20.8
+pandas                    1.1.5
+parso                     0.8.2
+pefile                    2019.4.18
+pickleshare               0.7.5
+Pillow                    8.3.1
+pip                       21.2.4
+prompt-toolkit            3.0.18
+PyAutoGUI                 0.9.52
+pycodestyle               2.7.0
+pycrypto                  2.6.1
+PyGetWindow               0.0.9
+Pygments                  2.8.1
+pyinstaller               4.5.1
+pyinstaller-hooks-contrib 2020.10
+pyminifier                2.1
+PyMsgBox                  1.0.9
+PyOpenGL                  3.1.5
+pyparsing                 2.4.7
+pyperclip                 1.8.1
+PyQt5                     5.15.4
+PyQt5-Qt5                 5.15.2
+PyQt5-sip                 12.8.1
+PyQt5-stubs               5.14.2.2
+PyRect                    0.1.4
+PyScreeze                 0.1.26
+PySide2                   5.15.2
+python-dateutil           2.8.1
+PyTweening                1.0.3
+pytz                      2020.4
+pywin32                   300
+pywin32-ctypes            0.2.0
+PyYAML                    5.4.1
+pyzmq                     22.0.3
+qimage2ndarray            1.8.3
+scipy                     1.6.3
+setuptools                51.0.0
+shiboken2                 5.15.2
+sip                       5.5.0
+six                       1.15.0
+spark-parser              1.8.9
+tinyaes                   1.0.1
+toml                      0.10.2
+tornado                   6.1
+traitlets                 5.0.5
+uncompyle6                3.7.4
+unpy2exe                  0.4
+wcwidth                   0.2.5
+Werkzeug                  1.0.1
+wheel                     0.36.2
+WMI                       1.5.1
+xdis                      5.0.6
+xlrd                      2.0.1
+
